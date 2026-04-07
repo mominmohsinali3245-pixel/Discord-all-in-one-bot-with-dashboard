@@ -4,15 +4,15 @@ const fs_1 = require("fs");
 const path_1 = require("path");
 const config = {
     token: process.env.BOT_TOKEN || '', // token (set via environment variable)
-    clientId: '1440731787906252883', // bot id
-    mongoUri: 'mongodb+srv://codex-us2:codex-us2@codex-us2.62zm1.mongodb.net/?retryWrites=true&w=majority&appName=codex-us2', // mongodb url
-    ownerid: '870179991462236170', // owner id
+    clientId: 'YOUR_CLIENT_ID', // bot id
+    mongoUri: 'YOUR_MONGO_URI', // mongodb url
+    ownerid: 'YOUR_OWNER_ID', // owner id
     defaultPrefix: '!',
-    mainGuildId: '1116658847323529299', // main guild id
+    mainGuildId: 'YOUR_GUILD_ID', // main guild id
     defaultLanguage: 'en',
     dashboard: {
         port: 3001,     // port for dashboard
-        secret: '.gg/codexdev',  // secret key
+        secret: 'YOUR_SESSION_SECRET',  // secret key
         callbackUrl: 'http://localhost:3000/auth/callback' // callback url
     }
 };

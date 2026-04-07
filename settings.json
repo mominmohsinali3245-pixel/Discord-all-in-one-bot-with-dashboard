@@ -593,8 +593,8 @@
     },
     "tempChannels": {
         "enabled": true,
-        "parentChannelId": "1412475156055724094",
-        "category": "1414926400502239356",
+        "parentChannelId": "",
+        "category": "",
         "multipleAllowed": true,
         "fullPermissions": true,
         "defaultName": "🔊 {user}'s Channel",
@@ -711,41 +711,18 @@
             "description": "Please read our server rules",
             "color": "#3498db",
             "thumbnail": {
-                "enabled": true,
-                "url": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
+                "enabled": false,
+                "url": null
             },
             "image": {
-                "enabled": true,
-                "url": "https://media.discordapp.net/attachments/1345185675816865853/1345185681361731635/background.png?ex=67c44a0a&is=67c2f88a&hm=bfe95e8054921ec28408adaa661d168bc8d056f805d36deec917bab6cced401b&=&format=webp&quality=lossless&width=1203&height=676"
+                "enabled": false,
+                "url": null
             },
             "footer": {
                 "text": "Server Rules",
-                "iconUrl": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
+                "iconUrl": null
             }
         },
-        "sections": [
-            {
-                "enabled": true,
-                "name": "اقفقفتفقت",
-                "emoji": "🙄",
-                "description": "تقفتقفتقف",
-                "rules": "تفقتقفتف",
-                "embed": {
-                    "color": "#0099ff",
-                    "thumbnail": {
-                        "enabled": true,
-                        "url": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
-                    },
-                    "image": {
-                        "enabled": true,
-                        "url": "https://media.discordapp.net/attachments/1345185675816865853/1345185681361731635/background.png?ex=67c44a0a&is=67c2f88a&hm=bfe95e8054921ec28408adaa661d168bc8d056f805d36deec917bab6cced401b&=&format=webp&quality=lossless&width=1203&height=676"
-                    },
-                    "footer": {
-                        "text": "تقفتفق",
-                        "iconUrl": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
-                    }
-                }
-            }
-        ]
+        "sections": []
     }
 }

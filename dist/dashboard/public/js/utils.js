@@ -1,5 +1,3 @@
-
-
 const TOAST_DURATION = 3000; // ms
 const TOAST_ANIMATION_DURATION = 300; // ms
 
