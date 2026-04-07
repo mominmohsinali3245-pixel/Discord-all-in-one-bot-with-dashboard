@@ -4,15 +4,15 @@ const fs_1 = require("fs");
 const path_1 = require("path");
 const config = {
     token: process.env.BOT_TOKEN || '', // token (set via environment variable)
-    clientId: 'YOUR_CLIENT_ID', // bot id
-    mongoUri: 'YOUR_MONGO_URI', // mongodb url
-    ownerid: 'YOUR_OWNER_ID', // owner id
+    clientId: '', // bot id (set via environment variable or .env)
+    mongoUri: '', // mongodb url (set via environment variable or .env)
+    ownerid: '', // owner id (set via environment variable or .env)
     defaultPrefix: '!',
     mainGuildId: 'YOUR_GUILD_ID', // main guild id
     defaultLanguage: 'en',
     dashboard: {
         port: 3001,     // port for dashboard
-        secret: 'YOUR_SESSION_SECRET',  // secret key
+        secret: '',  // secret key (set via environment variable or .env)
         callbackUrl: 'http://localhost:3000/auth/callback' // callback url
     }
 };
